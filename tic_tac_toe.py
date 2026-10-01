@@ -1,20 +1,38 @@
-# In this script you can write your code.
-# Start by writing all the functions.
-# In the last part after if __name__ == "__main__": you can call the functions to play your game.
-# If you run `uv run python tic_tac_toe.py` in the command line the game will start. Try it out! ;)
+# Function for X/O
+def choose_x_o():
+    xo = input()
+    ox = ""
+    if xo == "X":
+        ox = "O"
+    elif xo == "O":
+        ox = "X"
+    else:
+        print("Wrong character entered")
 
-# Function for ... (displaying the board?)
-def blabla():
+
+# Function for Lists/Game Area
+def play_area():
     pass
 
-
-# Function for... (choosing a player?)
-def blablabla():
+# Function for Output
+def output():
     pass
 
+# Function for Gameplay
+def play_input():
+    pass
 
-# ... write as many functions as you need
+# Function for PC Gameplay
+def play_pc():
+    pass
 
+# Function for Checking the Play
+def play_check():
+    pass
+
+# Function for Reset
+def play_reset():
+    pass
 
 # Tic-tac-toe game
 if __name__ == "__main__":
